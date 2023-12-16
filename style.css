@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Monomaniac+One&display=swap');
+
+h1{
+    transition: all 1s linear 0s;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1:hover{
+    letter-spacing: 5px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    padding: 0px 0px 120px 0px;
+}
+
+.maindiv{
+    margin-top: 50px;
+}
+
+.child{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 5px 10px 20px red inset;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 2s linear 0s;
+}
+.child span{
+    font: bold 20px 'Concert One';
+}
+
+.c1:hover{
+    transform: rotate(560deg);
+    transform-origin: top center;
+}
+
+.c2:hover{
+    transform: rotateX(560deg);
+    transform-origin: bottom center;
+}
+
+
+.c3:hover{
+    transform: rotateY(560deg);
+    transform-origin: center center;
+}
+
+.c4:hover{
+    transform: skew(100deg);
+    transform-origin: center;
+}
+
+.c5:hover{
+    transform: skewX(100deg);
+    transform-origin: center;
+}
+
+.c6:hover{
+    transform: skewY(100deg);
+    transform-origin: center;
+}
+
+.c7:hover{
+    transform: translate(150px,120px);
+    transform-origin: top center;
+}
+
+.c8:hover{
+    transform: translateX(150px);
+    transform-origin: top center;
+}
+
+.c9:hover{
+    transform: translateY(150px);
+    transform-origin: top center;
+}
+
+.c10:hover{
+    transform: scale(2);
+    transform-origin: top center;
+}
+
+.c11:hover{
+    transform: scaleX(2);
+    transform-origin: top center;
+}
+
+.c12:hover{
+    transform: scaleY(2);
+    transform-origin: top center;
+}
